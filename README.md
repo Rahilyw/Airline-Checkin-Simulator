@@ -51,3 +51,8 @@ cd Airline-Checkin-Simulator
 make
 
 ./acs customers.txt
+
+
+```
+🎓 Project Context
+This project was developed as part of the CSC 360: Operating Systems course at the University of Victoria. It serves as a practical exploration of POSIX thread synchronization and concurrent system design.
