@@ -26,6 +26,15 @@ This project simulates an airline check-in counter to demonstrate advanced opera
   * `Queue 0`: Economy Class
 * **Simulation Time:** Real-time simulation where 1 simulation unit equals 0.1 seconds (10ths of a second) using `usleep()`.
 
+** The simulation logic is split across modular components to ensure clean code and efficient execution: ** 
+|File | Description |
+| -------- | -------- | 
+| acs.c | The main driver containing the simulation logic, thread creation, and synchronization.  |
+| queue.c/h  | Implementation of the thread-safe queue structures for Business and Economy classes. |
+| customers.txt | Input configuration file defining customer arrival times and service requirements. |
+| Makefile |  Automated build script for easy compilation.| 
+| Design Document.pdf | Detailed technical breakdown of the system's state machine and logic. |
+
 ## ⚙️ Installation & Usage
 
 ### Prerequisites
@@ -36,6 +45,9 @@ This project simulates an airline check-in counter to demonstrate advanced opera
 ### Building the Project
 Clone the repository and compile the program using the included Makefile:
 ```bash
-git clone [https://github.com/yourusername/airline-checkin-simulator.git](https://github.com/yourusername/airline-checkin-simulator.git)
-cd airline-checkin-simulator
+git clone https://github.com/Rahilyw/Airline-Checkin-Simulator.git
+cd Airline-Checkin-Simulator
+
 make
+
+./acs customers.txt
