@@ -36,6 +36,9 @@ This project simulates an airline check-in counter to demonstrate advanced opera
 ### Building the Project
 Clone the repository and compile the program using the included Makefile:
 ```bash
-git clone [https://github.com/yourusername/airline-checkin-simulator.git](https://github.com/yourusername/airline-checkin-simulator.git)
-cd airline-checkin-simulator
+git clone https://github.com/Rahilyw/Airline-Checkin-Simulator.git
+cd Airline-Checkin-Simulator
+
 make
+
+./acs customers.txt
