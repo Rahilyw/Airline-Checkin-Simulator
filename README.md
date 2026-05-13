@@ -57,3 +57,10 @@ make
 🎓 Project Context:
 
 This project was developed as part of the CSC 360: Operating Systems course at the University of Victoria. It serves as a practical exploration of POSIX thread synchronization and concurrent system design.
+
+## ⚠️ Academic Integrity Notice
+
+This repository is maintained for portfolio and educational purposes only. 
+If you are currently enrolled in CSc 360 at the University of Victoria or a 
+similar OS course, please note that using this code in your own 
+assignments may constitute a violation of Academic Integrity policies.
