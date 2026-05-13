@@ -31,9 +31,9 @@ This project simulates an airline check-in counter to demonstrate advanced opera
 | -------- | -------- | 
 | acs.c | The main driver containing the simulation logic, thread creation, and synchronization.  |
 | queue.c/h  | Implementation of the thread-safe queue structures for Business and Economy classes. |
-| customers.txt |  | Input configuration file defining customer arrival times and service requirements. |
-| Makefile |  |  Automated build script for easy compilation. |
-| Design Document.pdf | | Detailed technical breakdown of the system's state machine and logic. |
+| customers.txt | Input configuration file defining customer arrival times and service requirements. |
+| Makefile |  Automated build script for easy compilation.| 
+| Design Document.pdf | Detailed technical breakdown of the system's state machine and logic. |
 
 ## ⚙️ Installation & Usage
 
